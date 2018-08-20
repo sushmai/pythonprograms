@@ -1,3 +1,36 @@
+"""
+# defining function
+def my_function():
+    # add whatever needed
+    print("Hello from function")
+
+#call the function
+my_function() #this will go back and exeucte code with in function
+
+def my_country(country = "USA"):
+    print("I am from " + country)
+my_country("INDIA")
+my_country("Japan")
+my_country("UK")
+my_country()
+"""
+"""
+
+def greet(name):
+    print("Hello," + name + ".... Good morning!!")
+greet('sam')
+
+def my_func():
+    x = 10
+    print("Value inside function:", x)
+
+x = 20
+my_func()
+print("Value outside function:", x)
+
+
+
+
 import sys
 script, input_encoding, error = sys.argv
 
@@ -19,3 +52,55 @@ def print_line(line, encoding, errors):
 languages = open("languages.txt", encoding = "utf-8")
 
 main(languages, input_encoding, errors )
+
+def multiplication(x):
+    return x * 5
+
+print(multiplication(5))
+print(multiplication(23))
+print(multiplication(22))
+
+def print_a():
+    print("Helo world")
+    print("welcome to python")
+
+def main():
+    print_a()
+
+main()
+"""
+def add(a,b):
+    return(a+b)
+c = add(3,4)
+print(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
