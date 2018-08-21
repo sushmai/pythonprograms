@@ -1,3 +1,4 @@
+
 i = 0
 numbers = []
 
@@ -14,3 +15,15 @@ print("The numbers:")
 
 for num in numbers:
     print(num)
+"""
+#while loop for truth tables: infinite loop ctrl + c to end
+while True:
+    age = int(input('enter your age:'))
+    if (age > 12 and age < 18):
+        print("Sorry you are not allowed to watch.")
+    elif age <= 12:
+        print("You can watch comic")
+    else:
+        print("You can watch as you wish")
+
+"""
