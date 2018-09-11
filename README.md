@@ -1,3 +1,2 @@
 # pythonprograms 
-#jenkins - trigger, 
-second test
+python basic programs with including logging
