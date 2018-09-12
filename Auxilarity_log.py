@@ -15,3 +15,4 @@ class Auxiliary:
 
 def some_function():
     module_logger.info('received a call to "some_function"')
+# using Auxyliray
