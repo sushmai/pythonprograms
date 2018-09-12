@@ -1,3 +1,4 @@
+# different methods and its usage using deque 
 from collections import deque
 
 d = deque()
