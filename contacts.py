@@ -36,10 +36,18 @@ def main():
             print("End the program")
         else:
             print("Invalid response..")
-    print("Program terminated ")
-
-
-
-
-
+    outfile = open("contacts.txt", "w")
+    for friend in friends:
+        outfile.write(",".join(friend) + "\n")
+    outfile.close()
+        
+        
 main()
+
+
+
+
+
+
+
+
