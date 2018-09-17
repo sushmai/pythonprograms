@@ -38,3 +38,6 @@ with open('4forces.json', 'r') as f:
     data = f.read()
 
 d = json.loads(data)
+
+
+
