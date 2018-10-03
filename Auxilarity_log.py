@@ -3,6 +3,7 @@ import logging
 # create logger
 module_logger = logging.getLogger('spam_application.auxiliary')
 
+
 class Auxiliary:
     def __init__(self):
         self.logger = logging.getLogger('spam_application.auxiliary.Auxiliary')
