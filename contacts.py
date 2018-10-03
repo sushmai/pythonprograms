@@ -4,6 +4,12 @@ def main():
 
     #initialize friends list
     friends = []
+    infile = open("contacts.txt", "r")
+    line = infile.readline()
+    while line:
+        friends.append(line.rstrip("\n").split(","))
+        line = infile.readline()
+    infile.close()
 
     choice = 0
     while choice != 4:
