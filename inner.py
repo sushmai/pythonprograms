@@ -12,3 +12,5 @@ print ("outer product : ")
 print (np.outer(A,B))
 print ("Cross Product : ")
 print (np.cross(x,y))
+
+
