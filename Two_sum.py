@@ -24,3 +24,6 @@ class solution:
             return [a[n], i ]
         a[target-n] = i
     return null 
+
+
+
