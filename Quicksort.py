@@ -33,6 +33,7 @@ def partition(alist,first,last):
            alist[rightmark] = temp
 
    temp = alist[first]
+   
    alist[first] = alist[rightmark]
    alist[rightmark] = temp
 
