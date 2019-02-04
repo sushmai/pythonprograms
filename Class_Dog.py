@@ -66,8 +66,6 @@ philo = Dog("Philo", 6)
 print(philo.description())
 print(philo.speak("Gruff "))
     
-
-
 # creating Dog class
 class Dog:
 
